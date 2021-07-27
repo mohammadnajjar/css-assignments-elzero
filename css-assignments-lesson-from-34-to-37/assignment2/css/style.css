@@ -1,0 +1,19 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+div {
+  width: 800px;
+  margin: 40px auto;
+  background-color: #D4D4D4;
+  padding: 40px;
+  font-size: 40px;
+  position: relative;
+  z-index: -1;
+}
+div::first-letter{
+  display: inline-block;
+  background: #FF0000;
+  color: #fff;
+  padding: 20px;
+  margin-left: -70px;
+}

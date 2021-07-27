@@ -1,0 +1,16 @@
+* {
+  font-family:  sans-serif;
+}
+div {
+  background-color: #eee;
+  width: 400px;
+  padding: 13px;
+  margin: 20px;
+  font-size: 17.9px;
+}
+
+.text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

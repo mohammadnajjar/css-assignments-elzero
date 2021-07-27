@@ -1,0 +1,28 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.list {
+  max-width: 400px;
+  margin: 0 auto;
+  list-style-position: outside;
+  list-style: none;
+  padding: 10px;
+}
+
+li,.item,
+.list .js li {
+  margin: 10px 0;
+  padding: 10px ;
+  background-color: #eee;
+}
+.list .js {
+  list-style: inside;
+  list-style-type: circle;
+  padding-left: 0px;
+}
+.list .js li,
+.list ol li {
+  margin-bottom: 5px;
+  background-color: #fff;
+  padding: 5px;
+}

@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+div {
+  width: 400px !important;
+  margin: 20px auto;
+  font-size: 20px !important;
+  background-color: #eeeeee !important;
+  color: #000 !important;
+  border: 0 !important;
+  text-align: center;
+  text-indent: -9999px;
+	line-height:0
+}
+div::after{
+  text-indent:0;
+  font-weight: bold;
+	content:'Ezero';
+	display:block;
+	line-height: initial;
+}

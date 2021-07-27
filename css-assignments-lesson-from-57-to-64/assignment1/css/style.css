@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.grid {
+  background-color: #ddd;
+  padding: 20px;
+  width: 800px;
+  height: 400px;
+  margin: 40px auto;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 50px 1fr;
+  font-size: 22px;
+  font-weight: bold;
+}
+.grid div {
+  background: #607d8b;
+  color: #fff;
+  counter-increment: counter-div;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+.grid div:nth-child(1)::before {
+  content: "Element " counter(counter-div);
+}
+.grid div:nth-child(2)::before {
+  content: "Element " counter(counter-div);
+}
+.grid div:nth-child(3)::before {
+  content: "Element " counter(counter-div);
+}
+.grid div:nth-child(4)::before {
+  content: "Element " counter(counter-div);
+}
+.grid div:nth-child(5)::before {
+  content: "Element " counter(counter-div);
+}
+.grid div:nth-child(6)::before {
+  content: "Element " counter(counter-div);
+}

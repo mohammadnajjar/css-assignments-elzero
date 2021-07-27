@@ -1,0 +1,45 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+table {
+  width: 700px;
+  margin: 40px auto;
+  text-align: center;
+  text-transform: capitalize;
+  border-bottom: 3px solid #22A498;
+}
+table td {
+  padding: 15px;
+}
+thead {
+  background: #404040;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+}
+thead td {
+  padding: 15px 20px;
+}
+tbody {
+  background: #eeeeee;
+  font-size: 17px;
+}
+tbody img {
+  width: 100px;
+  border: 3px solid #fff;
+}
+.btn{
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: bold;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+  padding: 5px 10px;
+}
+.btn-primary{
+background: #03A9F4;
+}
+.btn-danger{
+  background: #E91E63;
+}

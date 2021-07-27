@@ -1,0 +1,18 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+a {
+  display: block;
+  width: 60%;
+  text-align: center;
+  padding: 40px;
+  margin: 20% auto;
+  text-decoration: none;
+  color: #fff;
+  font-size: 72px;
+  font-weight: bold;
+  text-transform: capitalize;
+  background-color: #009688;
+  letter-spacing: 1.5px;
+  border-bottom: 20px solid #00514a;
+}
